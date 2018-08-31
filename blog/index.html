@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Compiler Design and Online Judge Design In Bangla</title>
+	<meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Compiler Design In Bangla and Online Judge Design">
+         <meta name="title" content="Compiler Design In Bangla and Online Judge Design">
+        <meta name="description" content="Compiler Design and Online Judge Design In Bangla. Compiler Design In Bangla, Language Processing System ,HLL – High Level Language, Pre-Processor Modified Source Code / Pure HLL, Compile Time Compiler, Assembler Relocated Machine Code (Objected Code/Binary file) , Linker Library Files Object Files, Loader Target Machine Code (Executable Code / . exe ) , Memory Executable Time/Run Time" />
+        <meta name="keywords" content="Compiler Design In Bangla and Online Judge Design,Bangla,Compiler,Online Judge,Programming, Compiler Design In Bangla,Language Processing System , HLL – High Level Language, Pre-Processor Modified Source Code / Pure HLL,Compile Time Compiler,Assembler Relocated Machine Code (Objected Code/Binary file)
+Linker Library Files Object Files,Loader Target Machine Code (Executable Code / . exe ),Memory Executable Time/Run Time">
+        <meta name="author" content="Shanto">
+        
+        <meta property="fb:admins" content="mdsanaulhaqueshanto" />
+    			<meta property="og:title" content="Compiler Design In Bangla and Online Judge Design" />
+    			<meta property="og:type" content="image/png" />
+    			<meta property="og:url" content="" />
+    			<meta property="og:image" content="" />
+    			<meta property="og:description" content="Compiler Design and Online Judge Design In Bangla. Compiler Design In Bangla, Language Processing System ,HLL – High Level Language, Pre-Processor Modified Source Code / Pure HLL, Compile Time Compiler, Assembler Relocated Machine Code (Objected Code/Binary file) , Linker Library Files Object Files, Loader Target Machine Code (Executable Code / . exe ) , Memory Executable Time/Run Time" />
+    			<meta property="og:site_name" content="Compiler Design In Bangla and Online Judge Design" />
+
+     <link href="font/font-awesome.min.css" rel="stylesheet">
+     
+</head>
+<body style="padding: 05px 05px 05px;">
+<h3>Firstly Sorry if i am wrong and i know there have a lots of bangla fonts mistake because of i wrote this article on my TAB.</h3>
+<h5> Compiler Design In Bangla</h5>
+<h5>Language Processing System</h5>
+<h5>HLL – High Level Language </h5>
+<h5>Pre-Processor Modified Source Code / Pure HLL</h5>
+<h5>Compile Time Compiler</h5>
+<h5>Assembler Relocated Machine Code (Objected Code/Binary file)</h5>
+<h5>Linker Library Files Object Files</h5>
+<h5>Loader Target Machine Code (Executable Code / . exe )</h5>
+<h5>Memory Executable Time/Run Time</h5>
+
+<h4>Compiler</h4>
+<p>Higher level language ( Example: C, C++, Java ) কে Lower Level language এ Convert করে থাকে । সাধারণত Compiler Translator হিসেবে কাজ করে থাকে।</p>
+<ul>
+	<li># Compiler এই কাজটি একা করে থাকে না । কোমপাইলার এই কাজ টা করার জন্যে কিছু Software Modulo Use করে থাকে।</li>
+	<li>#Higher Level Language বলতে আমরা বুঝি যেটা পড়ার যোগ্য যেমন : English Language .</li>
+	<li>#Lower Level Language বলতে আমরা বুঝি যেটা ০ আর ১ দিয়ে বোঝানো হয়। আমরা জানি ০ আর ১ দিয়ে বানানো Language কে Binary বলা হয়। আর যা আমাদের পড়ার যৌগ্য না বা আমরা পড়তে পারি না। মানে পড়া অনেক কষ্ট সাধ্য ।আমরা এটাকে  Assembly বলে থাকি ।</li>
+
+</ul>
+<h4>Pre – Processor</h4>
+<p>Pre processor – এর কাজ সাধারণত ২টি ।</p>
+<ul>
+	<li>1.	File Inclusion</li>
+	<li>2.	Macro- Processing </li>
+</ul>
+
+<h5>1.File Inclusion</h5>
+<p>File Inclusion সাধারণত আমাদের ব্যবহার করা source code এর হ্যাশ #include থাকা  tag remove করে দেই। যেমন:</p>
+<img src="images/file_inclusionss.png">
+<h5>2. Macro Processing</h5>
+<p>আমরা আমাদের  Source Code গুলোতে সাধারনত অনেক সময় define use  করে থাকি একটি variable কে অনেক জায়গায় ব্যবহার করবার জন্য। Macro Processing সাধারনত সেই হ্যাশ #define variable কে remove করে থাকে এবং  Pre-Processing সেটাকে modified source code / Pure High level Language এ পরির্রতন করে থাকে। Example:</p>
+<img src="images/Macro_processor.png">
+
+
+<h4>Compiler</h4>
+<p>এর পরের কাজ হল Compiler এর। Compiler সাধারণত  pure high level language কে convert করে Assembly Program এ পরিবর্তন করা । এর পরে আমরা যে code টি পাব সেটা পুরোপুরি  HLL ও না আবার সেটা পুরোপুরি Assembly ও না। মাযহামঅ্যাী ও না।</p>
+<h4>Assembly </h4>
+<p>Assembler এর পরের Relocated Machine Code এ পরিবর্তন করবে। আর এইটা হল পুরোপুরি Binary File(Object Code) ।
+আমরা যদি Programming করে থাকি তবে আমরা যানি যে আমরা যদি কনো soure code compile  দিয়ে run করাই তবে সেই file টার সাথে আরো ২টি file তোরি হয়ে থাকে তার মধ্যে .O/Obj। সেই file টি ( Relocated Machine Code )  নামে পরিচিত।
+Relocated Machine Code  বলতে বুঝাই ঃ ্যোখুন আমাদের Main Memory তে আমরা আমাদের Code টি  save করে রাখি এবং যে জাইগাই থাকে সেটাকে বুহযহাই । আমরা যে কোনো জাইগাই রাখি না কেনো সেটা  Main Memory তে save থাকে সেটাকে বুঝাই।</p>
+
+<h4>Linker </h4>
+<p>Linker এর কাজ হলো আমাদের বযাহার করা বিভিন্ন  Library Function , file যেমন ঃ  stdio.h , math.h, mycreatedheader.h এ আমদের define করা variable অথবা Function এর সাথে একটি Link তইরি করা । আর এটতা হল  linker এর মুল কাজ ।</p>
+<ul>
+	<li>1. Static Linker </li>
+	<li>2: Dynamic Linker</li>
+</ul>
+<h5>Static Linker:</h5>
+<p>Compiler Processing এ আমরা সাধারণত ২টি প্রক্রিয়া করে থাকি সেতা হল Translation of code Hll to Assembly এবং Execution। Static Linker এর কাজ সাধারণত  execution এর আগে একটা  file এর সাথে অন্য file এর যে Link সেটা সম্পূর্ণ করা। Static Linker C তে ব্যবহার করা হয় আর Dynamic Linker সাধারণত  Java তে ব্যবহার করা হয় ।</p>
+
+<h5>Loader</h5>
+<p>Loader এর কাজ হল আমাদের এখুন পর্যন্ত পাওয়া code [mycode.c , mycode.o , library files ] Main Memory তে load করে নেওয়া । এর পরে আমরা execution code পাব এবং আমরা execution time এর উপরে আমরা input দিতে পারব এবং output পাবো ।</p>
+<ul>
+	<li># Compiler এবং Assembly code কে binary তে convert করতে যে সময় নেই তাকে compilation time বলা হয়ে থাকে ।</li>
+	<li>#Linker এবং Loader এ code গুলো load এবং link করতে যে সময় নেই সেই সময় কে load time বলা হয়।</li>
+	<li># আর সব গুলো process complete করতে যে সময় নেয় তাকে execution time বলে ।</li>
+	<li># আমরা জানি যে c অনেক ফাস্ট কিন্ত  java c এর থেকে slow language এর কারণ টা আমরা linker এর static এবং Dynamic এর  সংগা থেকে বুঝতে পারি । কারণ C তে Static Linker use করা হই আর যেহেতু Static Linker এর কাজ সাধারণত  execution এর আগে একটা  file এর সাথে অন্য file এর যে Link সেটা সম্পূর্ণ করা। আর এখানে time কমে যাই। আর Java তে use করা হই Dynamic linker । আর সেই কারনেই C তে অনেক Fast কাজ করা যাই । </li>
+	<li>#Static এ Linking গুলো Translation এর সময় হয়ে থাকে সেই কারনে C অনেক    Fast কিন্তু Static এর অনেক Disadvantage ও আছে আর তা হল Static এ Translation এ বেশি সময় নেই আর Dynamic এ যেহেতু Translation এর পরে execution এর আগে সব Process Complete  করার পরে executable  হয় সেই কারনে এটাতে অনেক সময় নেই ।
+</li>
+</ul>
+<h4>Comiler Vs Interpreters Vs Assembler </h4>
+<img src="images/compiler_work.png">
+<ul>
+	<li># Step 1 : Compiler  সাধারণত এই ২ টা Step  এ কাজ করে ।প্রথমে compiler যে কোন Source code  টি কে  Translation  করে । এই Transation  এর সময় যদি কোন Error থাকে তবে সেটা  Step 1  এই থেকে যাই এবমগ আমাদের  Error Message Show  করে আর Error  না থাকলে Source code  টিকে  Obj Code এ পরিবর্তন করে ।</li>
+<li># Step 2 :  এর পরে Step 2 তে সাধারণত আমাদের Obj Code  টিকে  Execution করে এবং আমাদের একটি Code টিকে অনেকবার ব্যবহার  করার সুযোগ করে দেই । Target Program আমাদের বারবার  Translate  করতে হচ্ছে না একবার Translate করে নিয়ে আমরা বার বার Execution  করতে পারছি।
+</li>
+</ul>
+
+<h4>Interpreter</h4>
+<img src="images/interpreter_work.png">
+<ul>
+	<li># Interpreter  সাধারণত  source code এবং input  একসাথে নিয়ে আমাদের  Output দিয়ে থাকে ।</li>
+<li># Interpreter  এ একটি লাইন Scan  করে করে কাজ করে । যেমন ঃ আমরা এইটা Python High Level Language এ দেখে থাকি ।</li>
+</ul>
+
+<h4>The Stracture of a Compiler / Various Phase of a compiler </h4>
+<p>Compiler  এর বিভিন্ন ধাপ বা Compiler  আসলে কন কোন  ধাপে কাজ করে সেগুলো আমরা জানব ঃ</p>
+<img src="images/structure_of_compiler.JPG">
+
+
+<p># উপরের ধাপ গুলকে আমরা আবার ২টা Phase / Modulo  তে ভাগ করতে পারি । কারণ আমদের  Compiler Design  এর সময় ২টা জিনিস লক্ষ্য রাখতে হবে এমন অনেক জিনিস আছে যা Independent ( যেগুলো সব Platform এ কাজ করে আর অনেক বিষয়  জা Dependent যা সুধু মাত্র একটি Platform  এ কাজ করে ) । তাই আমরা Compiler Design  এর ধাপ গুলকে ২টা ধাপ এ ভাগ করেছি ঃ</p>
+
+<h5>1:Frontend বা Analysics :</h5>
+<p>LSSI (Lexical Analyzer, Syntax Analyzer ,Semantic Analyzer, Intermediate code Generator ) Part .</p>
+
+
+<h5>Part 2: Backend বা  Synthasics Part:</h5>
+<p>CT ( Code Optimizer and Target  Code Generator) Part.</p>
+
+
+<h4>Lexical Analyzer</h4>
+<p>Lexical Analyzer আমাদের Code এর  String গুলকে  Number of Tokens  এ পরিবর্তন করে দেই । এটাকে আমরা Scaner  ও বলে থাকি । কারণ Lexical আমদের code কে scan করে আমাদের ব্যবহার করা  variable , keywords  কে আলাদা আলাদা করে  tokens  এ পরিবর্তন করে দিবে ।</p>
+
+<h4>Syntax Analyzer </h4>
+<p>Lexical Analyzer  থেকে পাওয়া  tokens  গুলকে Syntax Analyzer Parser Tree/ Syntax Tree তে পরিবর্তন করে দিবে ।</p>
+
+<h4>Semantic Analyzer</h4>
+<p>Syntax Analyzer থেকে পাওয়া  syntax tree টি  Varified  কিনা সেটা check করবে আর সেটা না হলে Error Generate  করবে আর আই কাজ  করে থাকে আমাদের  Error Handler । এটাকে বলা হয় Semantically Varified ।</p>
+
+<h4>Intermediate code Generator</h4>
+<p>Sematical  Analyzer থেকে পাওয়া   Varified/Meaningful Syntax Tree টা চলে যাবে Intermediate Code Generator এর কাছে Intermediate Code Generator সেই  Syntax Tree টাকে Intermediate Representation দিবে । এম্ন একটা Representation  দিবে যেটা  High Level Language ও না আবার  Low Level Language  ও না । আমরা অনেক রকম Intermediate code Generator Use kore  থাকি কিন্তু সব থেকে পপুলার হল 3 Addressing Code Generator ।</p>
+
+<h4>Code Optimizer</h4>
+<p>আমাদের ব্যবহার করা  Source Code টিকে Reduce করে থাকে । মানে আমাদের code এর লাইন সংখা কমাই দেই ।</p>
+
+<h4>Target  Code Generator </h4>
+<p>এইটার কাজ হল আমাদের optimized code টিকে আমাদের Target Code এ পরিবর্তন করে দিবে ( এখানে Assembly Code এ পরিবর্তন করে দিবে ) ।</p>
+
+<h4>Symble Table Manager</h4>
+<p>আমাদের LSSICT (Lexical Analyzer, Syntax Analyzer ,Semantic Analyzer, Intermediate code Generator,Code Optimizer,Target Code Generator ) এর ধাপ গুলো নিয়ে কাজ করার জন্য যার সাহায্য নিব সেটা হল Symble Ttable Manager । কারণ এখানে আমাদের Source Code আর  Object Code , Library Code গুলো Save থাকবে। আমাদের ব্যবহার করা Source Code, Parser Tree, Syntax Tree,Semantical Varified Code আর সর্বশেষ Target Code Save থাকবে আর আমরা ওই খান থেকেই সব কাজ গুলো করব।</p>
+<img src="images/symbol_table.JPG">
+
+<h4>Error Handler</h4>
+<p>LSSICT এর ধাপ গুলতে কোন Error দেখা দিলে Error Handle করার কাজ করে থাকে Error Handler।</p>
+
+<h4>What is 2 Phase / Modulo Compiler?</h4>
+<p>#LSSI (Lexical Analyzer, Syntax Analyzer ,Semantic Analyzer, Intermediate code Generator ) এই টুকু ধাপ কে আমরা একটা একটা ধাপ এ নিতে পারি আর CT ( ) কে আমরা আরেকটা ধাপ এ নিতে পারি। এভাবে Compiler  কে ২টা ধাপে ভাগ করলে তাকে 2 Pphase Compiler  বলবে ।</p>
+
+<h4>What Is 1 Phase / Modulo Compiler ?</h4>
+<p>#  আমরা যদি LSSICT কে একটা ধাপে নিয়ে আসি এবং একসাথে কাজ গুলো গননা করে থাকি তবে সেটাকে 1 Phase/Modulo Compiler বলবে।</p>
+
+<p># L to I পর্যন্ত অংশ কে Frontend/Analysics Part বলা হয় আর C to T পর্যন্ত অংশ কে Backend/Synthesics Part বলে । Frontend টা কিন্তু Independent আপনি যেকোনো Platfrom use করতে পারেন এইটাতে কোন Problem ( as like windows, Linux ) হব না আর এইটা Matter  ও করে না  কিন্তু Backend টা Dependent । সুধু মাত্র Backend  টা পরিবর্তন করেই আমরা নতুন Compiler  বানাতে পারব ।</p>
+
+<h4>Introduction to Lexical Analyzer </h4>
+<h5>Symble Table Manager</h5>
+<img src="images/symbol_table.JPG">
+<p>Example :</p>
+
+<img src="images/symble_table_save.png">
+
+<h5>Lexeme</h5>
+<p>Lexeme  হচ্ছে sequance of strings। মানে হচ্ছে Meaningful Character . Example : position , initial , rate ;</p>
+<img src="images/lixeme_tokens.JPG">
+
+<h4>Lexical Analyzer </h4>
+<p>Lexical Code  গুলকে Number of Strings এ পরিবর্তন করে দিবে আর Source Code এ যদি বেশি সংখ্যক Space থাকে তবে সেটা Remove  করে দিবে আবার আমাদের Code যদি Comments থাকে তবে সেটাও Remove করে দিবে Lexical Analyzer । আবার আমাদের code এ বযভের করা Keywords , Identifier & Recognizing of Constant গুলো আলাদা করে দিবে এবং সেগুলো Tokens  এ পরিনত করে দিবে । আমাদের প্রশ্ন হল Lexical Analyzer কিভাবে চিনবে যে কোনটা Indentifier , কোনটা Identifier না । সেই জন্য Lexical Analyzer কে কিছু Rules of Pattern  দিয়ে দেওয়া হই যাতে করে Lexical Analyzer বুঝতে পারে যে কোনটা Identifier আর কোনটা Identifier না । Example : l ( l + d )* [ set of rules ] যেটাকে আমরা Pattern বলে থাকি । যেমন ঃ position হ্যাঁ  এইটা একটা Tokens কারণ যে এইটা আমাদের   l(l+d)* Pattern মেনেছে তাই ।</p>
+
+<img src="images/lexical.png">
+
+<h4>What is Tokens ?</h4>
+<p>Token হল Number of Strings আর আমাদের একটা Pattern মেনে কাজ করবে যে । Example : float position , initial , rate ; এখানের float ও কিন্তু token কিন্তু সেটা আমাদের Symble Table Manager এ আসবে না কারণ Lexical Analyzer এর আগে থেকেই জানা আছে যে float এর token কি তাই , কারণ এইটা একটা keyword । তাই সেটা Symble Table Manager এ Save থাকে না । আরও বাদ যাবে আমাদের ব্যবহার করা কমা ( , ) , সেমিকলন ( ; ) । এইটা আমরা  একটা BFS এর State এর দিকে নজর দিলেও দেখতে পাই যে সে একটা নিয়ম মেনে Travel করে থাকে ।তার পরে একটার পরে আরেকটা Base Travel করে তেমনি Lexical Analyzer প্রতিটা  Character কে check করে state মেনে এবং সেটা Keyword কিনা যাচাই করে তার পরে Symble Table Manager এ save করে । Example : </p>
+<img src="images/symbol_table.JPG"></br>
+
+<img src="images/symble_table_save.png">
+
+<h4>Token আবার ২টা part এ থাকে ঃ</h4>
+<ul>
+	<li>1:Token Name</li>
+	<li>2:Token Variable Name</li>
+</ul>
+<p>Tokens Example :</p>
+<img src="images/find_tokens.JPG"></br>
+<img src="images/tokens_examples.png">
+
+<h4>Introduction to Syntax Analyzer</h4>
+
+<img src="images/syntax_analyzar.JPG">
+
+<p>id1 = id2 + id3 * 60 ;</p>
+<p> এই input কে  Synatx Analyzer input হিসেবে নিবে এবং কোন Grammar এর rules কে Follow করবে এবং Parser Tree তে পরিনত করবে । Rules Example :</p>
+<img src="images/Syntax_Analyzer.JPG">
+
+<p>#আমরা জখুন Parse Tree কে Compress  করব তখুন আমরা পাব Syntax Tree । Parse Tree কে যখুন আমরা Compress করব তখুন Oparator গুলো হবে internal Node আর Oparand গুলো হনে Leave Node ।সুতরাং আমরা তখুনি Syntax Tree পাব যখুন Tokens গুলো একটা Rules মেনে Parser Tree তে রুপান্তর হবে । আর যদি এই কাযে rules না follow করে তবে সেটা Hande করার দায়িত্ত Error Handler এর । এই জিনিষ টা বুঝার জন্যে  আমরা একটা উদাহরন দেখি তাহলেই বুঝে যাব । Example :</p>
+<img src="images/p_example.png">
+
+<p>এইটা থেকে আমরা  Parser Tree পাব না কারণ এইটা আমাদের Rules Follow করে না ।</p>
+
+<h4>Introduction To Semantic Analyzer</h4>
+<p>Syntax Tree কে Semantic Analyzer কে  Input হিসেবে নিবে এবং একটা Syntax Tree দিবে যেটা Semantically Varified । Example :</p>
+<img src="images/semantic_analyzer_example.png">
+<p>এই উদাহরনে Grammatically কোন ভুল নাই তবে এইটা Meaningful না । এই Program টা float return করবে কিন্তু আমরা ব্যবহার করেছি Character যা এখানে Declier করা নাই । আমরা চাচ্ছি একটা আর আমাদের দিচ্ছে আরেকটা ।</p>
+
+<p>Semantical Analyzer এর মুল কাজ হল Data Type Conversition করা আমরা এটাকে Type Casting ও বলে থাকি । যদি Data Type  এ কোন Problem থাকে তবে সেটা Same Data Type এ Conversition  করে দেই ।</p>
+<p>Data Type Casting 2 রকম হতে পারে ঃ</p>
+<ul>
+	<li>1 : Emplecite Type Casting</li>
+	<li> Xplecite Type Casting</li>
+</ul>
+<h5>Emplecite Type Casting হল বড় কোন Data Type থেকে ছোট কোন Data Type এ পরিবর্তন করা আর Explecite Data Type Casting হল ছোট কোন Data Type থেকে বড় কোন Data Type এ পরিবর্তন করা। Xplecite Data Type Casting সাধারণত Compiler নিজে থেকে করে থাকে আমাদের নিজেকে করার প্রয়োজন পরে না ।
+Emplecite Data Type Casting Example :</h5>
+<img src="images/eplecite.JPG"></br>
+<img src="images/emplecite_typecast.png">
+<p>float অনেক বড় তাই আমাদের নিজে থেকে এইটা করে নিতে হই আর এইটাকেই Emplecite Type Casting বলবে ।</p>
+
+<h4>Introduction to Intermediate Code Generator</h4>
+<p>#Sematically Varified Tree থেকে আমরা output পাব এবং code generator সেটাকে একটা intermediate Representation দিবে ।</p>
+
+<h4>3 Addressing Code Generator</h4>
+<p>3 Addressing Code এ Oparand থাকবে 3টি । Left Side এ 1টা আর Right Side এ 2টা ( এখানে সরবচ্চ ২ টা বোঝানো হয়েছে কম করে হলেও ১ টা থাকতে পারে ) । Example :</p>
+
+<img src="images/3_address_code.png">
+<p>আমাদের আগের ব্যবহার Code টা কিন্তু 3 Addressing Code না । কারণ সেটার কোনো  Representation আমরা পাই না ।</p>
+
+<h4>Code Optimizer </h4>
+<p>Intermediate Code Generator থেকে Input  হিসেবে আমরা 3 Addressing Code টা নিবে এবং Optimized করবে মানে আমাদের code এর line of number redoucing  সংখা কমাইই দিবে । এইটা কোনো Compiler এ থাক্তেও পারে নাও পারে ।</p>
+
+<img src="images/code_generator.JPG">
+
+<p>Code Optimizer দিয়ে আমরা source code কে redouce করে 4 টা ine থেকে 2টা line করেছি ।</p>
+<h3>Next - Coming Soon Backend Design With Details.</h3>
+<h3>I am Thinking to make Video Series about Compiler Design and Online Judge Design in Bangla.</h3>
+
+<h3>Online Judge Design</h3>
+<p>Now i am introducing how to design and code for an Programming Online Judge.</p>
+<ul>
+	<li>Your first job is design a frontend on paper and discussion with your friends and with yourself.</li>
+	<li>Thing about Languages Architecture and thing about algorithm for handleling huge database.</li>
+	<li>Thing first that your algorithm was fast for huge user activity.</li>
+	<li>If you have no idea about how to design online judge then you can view other open source online judge source codes this will help you a lots.as example you can try those source code all are open source .<a href="https://github.com/pushkar8723/Aurora">Aurora Online Judge</a>. <a href="https://github.com/aqfaridi/Code-Online-Judge">CodeOJ</a>. <a href="https://github.com/mjnaderi/Sharif-Judge">Sharif Judge</a>. All are good to Design a new online judge.</li>
+	<li>All About Rating and Calculation  all are math tricks . Don't be sad about this section.</li>
+	<li>If you have enough Competitive Knowledge then it is very easy to make an online judge.</li>
+	<li>If you thing about Rating and Progessive Graph. Don't Worry about you can use Google Graph API or Morris Graph all are good and easy to use</li>
+	<li>This is the main part - Backend yes it is very important part of Programming Online judge.If you have knowledge about oparate Linux OS then it is easy to make backend.You can use MingW Latest Compiler for C/C++ Compiler and Java JDK for Java.Just connect and request them.When your request are done then compiler send you result and all are save on your database.So, just thing it and visulize and make it.It is very easy to make.</li>
+	<li>If you thing own Compiler design is very hard and you have not enough money to bought VPS then you can use Compiler API . It was realy easy to use. Just registared on desire Compiler API like as <a href="https://codeforces.com/api/help?locale=en">Codeforces API</a>, <a href="https://www.hackerrank.com/api">Hackerrank API</a> and <a href="https://www.hackerearth.com/docs/wiki/developers/legacy/">Hackerearth API</a>. All are good to use.you need to just make forntend and connect to Compiler and request them and compiler send you another request with JSON data.But it was very lame to use another compiler . Most of time api didn't work .This is the main Problem. SO, you have to use your own Compiler and if you thing you host your online judge on public then you need VPS.</li>
+	<li>If you are want to test your online judge before you host on your own server then you can test your Application on <a href="https://manage.openshift.com/sign_in">OpenShift RedHat Cloud</a> . by uploading your application on GitHub or this type Container.</li>
+	<li>If you thing there is no way to host your Appilcation is free. Yes it is possible but you need a machine to open 24/7 Hours. It is not possible in our country for electricity problem.But i am using a small device for run my <a href="http://www.arenaboard.xyz/">ArenaBoard Online Judge</a> . I am using <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/"> Raspberry PI 3 Model B</a> for host on it online.But it's clock speed is very slow. it doesn't matter about me but this is possilbe becouse of it run on my mobile power bank if our electricity was gone.And in this case you need Publice IP Address for Run on this Application on the world.Just Configure Publice IP Address by your ISP.And use your localhost Application on Public Application By Router Port Forwarding System or make Virtual Server on your Home Router. That's so easy to use you can do it if you have money or any other international transitions Problems.</li>
+	<li>If you are fatching any problems then ask on those site . Those sites are realy awesome . <a href="https://stackoverflow.com/"> Stack Over Flow</a> , <a href="https://stackexchange.com/">Stack Exchange</a> and <a href="https://www.quora.com/">Qoura.</a></li>
+</ul>
+<h3>My Online Judge ArenaBoard Details</h3>
+<p><a href="http://www.arenaboard.xyz/">ArenaBoard Online Judge</a> This is my Programming Online Judge and also MCQ Online Judge .I am happy to say in presents my Online Judge Users are 1500+ about 3 Months without any national level Contest.I am working this about 1 year and 8 Months.When i was participate on Onsite Programming Contest then thing to make some this type Appilcation but that day i have no knowledge how to make it when i learn some more then think to make this type application.Then Make It.</p>
+<ul>
+	<li>I am using some batch and bash Programming for backend.</li>
+	<li>Compiler - MingW for C/C++, Java JDK for Java.</li>
+	<li>Frontend - HTML, CSS, Java Scripts, PHP(PDO) and Backend - Mysql.</li>
+	<li>For Graph - I am Using Google Graph.</li>
+	<li>First i am used <a href="https://www.cloudsigma.com/pricing/">CloudSigma Cloud PLatform</a> Now I am using Raspberry Pi (my own Home Server with Static IP Address) </li>
+	<li>And Some Math Algorithms. That's it.</li>
+	<li>I know very well my application have many problems all about server side problem and some one functional problem those are i don't added Banlancer on server this is my mistake and other i don't use queue function but i will added soon( i am busy with my academic for university intrance Programe .After my intrance then i will added all functions and some new futures.)</li>
+	<li>I know i am noob and i haven't enough knowledge about this sections but i try my best to make it different and some how this is my voluntary Project(with No Profit).I made it for General Students who always read and write about institution but have no knowledge about other competitive world . if a student participate on MCQ Contest or solve archives Problems then thing about other section about programming contest and learn some code and do programming, Because of our country's lot of students waste his/her time in Facebook chatting but all have no knowledge about future life.So, i made it and run this project by.</li>
+	<li>If you want to learn PHP and OOP PHP then you can Watch this channel - <a href="https://www.youtube.com/channel/UCzmI_aDsHbBXPZzabrsM7sA">Training with Live Project</a>. I learn From here.</li>
+	<li>If you want to learn Linux simple command then you can try this first- <a href="https://www.youtube.com/watch?v=pGw6YemmLLk&list=PLym69wpbTIIHolyIqj9O6e7XNn8YZZ7kD">লিনাক্স কী এবং কেন? by Tamim Shahriar. </a></li>
+	<li>Setup Linux VPS - <a href="https://www.youtube.com/watch?v=W2ccsmomCs4">How to setup and secure your Linux VPS or Dedicated Server . </a></li>
+</ul>
+<h3>Share and give me feedback in <a href="https://www.facebook.com/mdsanaulhaqueshanto">Facebook</a> or Mail me : mdsanaulhaqueshanto@gmail.com</h3>
+<h5>Know About me: <a href="https://md-sanaul-haque-shanto.github.io"> Visit my Resume .</a>  </h5>
+<p>Thank You Very Much.</p>
+
+</body>
+</html>
